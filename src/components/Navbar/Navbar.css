@@ -1,0 +1,150 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: white;
+    color: black;
+    padding: 0 20px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .navbar-logo {
+    font-size: 34px;
+      color: rgb(250, 81, 185);
+      font-family: Brush Script MT;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-input[type="text"] {
+  padding: 5px 11px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 5rem;
+  background-color: whitesmoke;
+  transition: 1s ease;
+}
+
+svg {
+  height: 12px;
+}
+
+.menu-icon {
+  height: 20px;
+  display: none;
+}
+
+.search-logo {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 80px;
+}
+
+.nav-btn {
+  width: 5rem;
+  background-color: rgb(250, 81, 185);
+  border: 0;
+  border-radius: 4px;
+  padding: 5px 11px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.search {
+  font-size: 12px;
+  font-weight: 600;
+  color: gray;
+}
+
+.profile-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+.upload-input{
+  display: none;
+}
+
+  
+  @media screen and (max-width: 768px) {
+    .navbar-links {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      background-color: #333;
+      flex-direction: column;
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in;
+    }
+  
+    .navbar-links.active {
+      max-height: 250px;
+      display: block;
+    }
+  
+    .navbar-item {
+      margin: 10px 0;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+
+
+  }
+  

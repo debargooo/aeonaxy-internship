@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 40vw;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .input {
+    display: none;
+  }
+span {
+  font-size: 12px;
+  font-weight: 600;
+  color: gray;
+}
+  .label {
+    
+    background-color: white;
+    color: black;
+    padding: 2px 3px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 2px solid gainsboro;
+    height: fit-content;
+  }
+ img {
+  width: 8rem;
+  height: 8rem;
+ }
+
+h3 {
+  margin-top: 2rem;
+}
+.image {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.image-preview img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.upload div{
+  margin-top: 1rem;
+}
+
+ .location {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+  background: transparent;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+ }
+
+ p {
+  font-size: 12px;
+  font-weight: 600;
+  color: gray;
+  position: relative;
+  left: 26px;
+ }
+
+ button {
+  margin-bottom: 0.5rem;
+ }
+  
+  /*responsive styles here */
+
+
+   /*For Mobile */
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 0 10px;
+      max-width: 80vw;
+    }
+
+    h1 {
+       font-size: 38px;
+    }
+
+    span {
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+  
+     /*For Mobile */

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.Email-container{
+    width: 100%;
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 54vh;
+}
+
+.Email-image {
+    width: 12rem;
+}
+
+@media (max-width: 768px){
+    .Email-container{
+        height: auto;
+    }
+}

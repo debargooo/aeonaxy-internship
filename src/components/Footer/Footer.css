@@ -1,0 +1,117 @@
+/* Footer.css */
+.footer {
+  background-color: whitesmoke;
+  color: grey;
+  padding: 17px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+h2 {
+  font-size: 34px;
+  color: rgb(250, 81, 185);
+  font-family: Brush Script MT;
+}
+
+.footer-h5 {
+  font-weight: 800;
+  color: black;
+}
+
+.footer-section h2 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: grey;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#copyright {
+  font-size: 12px;
+  font-weight: 600;
+  color: gray;
+}
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #shorts{
+    font-size: 12px;
+  }
+
+  
+  #number {
+    font-size: 12px;
+  }
+
+  .footer-bottom{
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  .footer-h5 {
+    font-size: 16px;
+  }
+
+  .footer-section ul li a {
+    font-size: 14px;
+  }
+
+  #shorts{
+    font-size: 12px;
+  }
+
+  #number {
+    font-size: 12px;
+  }
+
+  .footer-bottom{
+    gap: 2rem;
+  }
+}
